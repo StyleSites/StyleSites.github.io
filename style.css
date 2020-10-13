@@ -1,3 +1,41 @@
-h2{
-    font-family: monospace;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.title-text h2{
+    font-family: monospace;
+    text-align: center;
+    padding: 4pc;
+    text-size-adjust: auto;
+    font-size: 3pc;
+}
+
+.title .title-text{
+    height: 10pc;
+    Width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 1920;
+    height: 1080;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

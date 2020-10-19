@@ -17,7 +17,7 @@
     font-family: "Segoe UI", sans-serif;
     width: 340px;
     padding: 15px 10px;
-    border: 3px solid #2E94E3;
+    border: 3px solid #e32e2e;
     border-radius: 5px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
     transition: 0.5s;
@@ -25,8 +25,8 @@
   }
   
   .datetime:hover{
-    background: #2E94E3;
-    box-shadow: 0 0 30px #2E94E3;
+    background: #e32e2e;
+    box-shadow: 0 0 30px #e32e2e;
   }
   
   .date{
@@ -52,7 +52,7 @@
   }
   
   .time span:last-child{
-    background: #2E94E3;
+    background: #e32e2e;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
